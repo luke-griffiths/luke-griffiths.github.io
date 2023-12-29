@@ -1,21 +1,52 @@
 <div class="sticky-top sticky-top-offset">
-    <h4 class="font-weight-bold spanborder"><span>Cool Papers I like</span></h4>  
-    <ol class="list-featured">				
-        {% for post in site.tags.featured %}                
+    <h4 class="font-weight-bold spanborder"><span>Papers I like</span></h4>  
+    <ol class="list-featured">		
+
             <li class="mb-4">
             <span>
                 <h6 class="font-weight-bold">
-                    <a href="{{site.baseurl}}{{ post.url }}" class="text-dark">{{ post.title }}</a>
+                    <a href="https://arxiv.org/abs/2309.16534" target="_blank" rel="noopener noreferrer" class="text-dark">MotionLM: Multi-Agent Motion Forecasting as Language Modeling</a>
                 </h6>
                 <span class="d-block text-muted">
-                    In <span class="catlist">
-                    {% for category in post.categories %}
-                    <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-                    {% endfor %}
-                    </span>
+                    <p>Using LLMs to forecast driver behavior</p>
                 </span>
             </span>
-            </li>                
-        {% endfor %}   
+            </li>  
+
+            <li class="mb-4">
+                <span>
+                    <h6 class="font-weight-bold">
+                        <a href="https://arxiv.org/abs/2307.09288" target="_blank" rel="noopener noreferrer" class="text-dark">Llama 2: Open Foundation and Fine-Tuned Chat Models</a>
+                    </h6>
+                    <span class="d-block text-muted">
+                        <p>Open source LLM courtesy of Meta</p>
+                    </span>
+                </span>
+            </li>  
+
+            <li class="mb-4">
+                <span>
+                    <h6 class="font-weight-bold">
+                        <a href="https://arxiv.org/abs/2010.11929" target="_blank" rel="noopener noreferrer" class="text-dark">An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale</a>
+                    </h6>
+                    <span class="d-block text-muted">
+                        <p>Vision transformers!</p>
+                    </span>
+                </span>
+            </li> 
+
+            <li class="mb-4">
+                <span>
+                    <h6 class="font-weight-bold">
+                        <a href="https://arxiv.org/abs/1602.05629" target="_blank" rel="noopener noreferrer" class="text-dark">Communication-Efficient Learning of Deep Networks from Decentralized Data</a>
+                    </h6>
+                    <span class="d-block text-muted">
+                        <p>Cool federated learning application</p>
+                    </span>
+                </span>
+            </li> 
+            
+            
+
     </ol>
 </div> 
