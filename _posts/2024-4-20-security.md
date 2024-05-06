@@ -11,7 +11,7 @@ Like most things in life, the hard part is dealing with people. A lot of people 
 1. Writing the password down on a piece of paper
 2. Appending a character to the old password to form a new one
 
-Both make it much easier for Trudy to gain access, which is why NIST recommends against frequent password rotation.(source?) I think system security is slowly becoming more rooted in evidence-backed science than the rational principles it used to be based on, and that's a good thing. Because humans do not behave rationally. We are [predictably irrational](https://en.wikipedia.org/wiki/Predictably_Irrational), and security principles should take that into account. 
+Both make it much easier for Trudy to gain access, which is why NIST recommends against frequent [password rotation](https://pages.nist.gov/800-63-FAQ/#q-b05). I think system security is slowly becoming more rooted in evidence-backed science than the rational principles it used to be based on, and that's a good thing. Because humans do not behave rationally. We are [predictably irrational](https://en.wikipedia.org/wiki/Predictably_Irrational), and security principles should take that into account. 
 
 ## Cryptographic Hash Functions
 The basis of digital signatures and encryption, cryptographic hash functions take some input and produce an output string with a fixed length. The important properties of these functions is that they:
