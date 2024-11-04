@@ -6,7 +6,7 @@ image: "/assets/images/cornell.jpeg"
 #comments: true
 ---
 ## tl;dr
-I have a Bachelor of Science in Electrical & Computer Engineering and a Master of Engineering in Computer Science, both from Cornell University. I've interned at the Cleveland Clinic, GE Aerospace, and Blue Origin. I'm interested in applying machine learning at large scales while making it fast and efficient.
+I have a Bachelor of Science in Electrical & Computer Engineering and a Master of Engineering in Computer Science, both from Cornell University. I've interned at the Cleveland Clinic, GE Aerospace, and Blue Origin. I'm currently a software engineer at Blue Origin making the lunar lander testbeds collect and analyze large amounts of data quickly. 
 
 ## Education
 I started my Bachelor of Science in Electrical & Computer Engineering in 2019 and finished it in May 2023. During my final semester, I also started taking courses to fulfill the requirements for a Master of Engineering in Computer Science, which I completed in December 2023. Throughout undergrad I worked $$\geq 1$$ job per semester to pay for school, including during Covid when I worked the night shift at a Costco warehouse (which was a *great* way to keep me awake for my early morning online lectures). Most of my coursework has emphasized machine learning (RL, CV, NLP), but I've also covered a lot of fundamental software courses as well (OS, embedded systems, algo, functional programming). A non-exhaustive list of some courses I've taken:
@@ -36,6 +36,10 @@ Interning at GE Aerospace and Blue Origin gave me practical software dev experie
   <img src="{{ site.baseurl }}/assets/images/new_glenn.png" width="100%" />
 </p>
 
-More recently, I was involved with the creation of *CS 4782: Intro to Deep Learning* which will be taught at Cornell starting January 2024. I wrote the lecture material and assignments for the generative vision course module, and also was a guinea pig for several other modules in the course. 
+During my Master's program, I was involved with the creation of *CS 4782: Intro to Deep Learning* which will be taught at Cornell starting January 2024. I wrote the lecture material and assignments for the generative vision course module, and also was a guinea pig for several other modules in the course. 
 
-For my M.Eng. project, I worked in the computer vision role on a team seeking to use street camera feeds to predict vehicle emissions in NYC. I got to work on all aspects of the ML pipeline (short of compression and deployment, because I graduated before the project wrapped up). That includes manually annotating thousands of vehicles to create our custom dataset, training a YOLO model on the data, and doing everything I could to improve performance. 
+For my M.Eng. project, I worked in the computer vision role (data science + software dev) on a team seeking to use street camera feeds to predict vehicle emissions in NYC. I got to work on all aspects of the ML pipeline (short of compression and deployment, because I graduated before the project wrapped up). That includes manually annotating thousands of vehicles to create our custom dataset, training a YOLO model on the data, and writing methods to convert our labeled bounding boxes from JSON to YOLO's label format.
+
+More recently, I've returned to Blue Origin to work on the moon lander program. The lunar lander testbed is a complicated system; it has both actual and simulated hardware to test the flight software, including actuators, network switches, LIDAR, cameras, etc. 
+
+I've gotten to build a containerized network monitoring application that gathers data from network switch interfaces on the vehicle testbed, and have currently been overhauling the way we analyze flight software data that is generated during simulations. The skills I learned working with large-scale ML pipelines in college have paid dividends; Being skilled with Polars, DuckDB, and Apache Arrow/Parquet/Feather has given me a huge boost and helped me develop data pipelines that are scalable and efficient. 

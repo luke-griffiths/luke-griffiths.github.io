@@ -4,7 +4,7 @@ permalink: "/contact.html"
 ---
 
 <form action="https://formspree.io/f/mgegwybw" method="POST">    
-<p class="mb-4">Found a mistake? Have a question? Feel free to send me a message and I'll reply as soon as possible!</p>
+<p class="mb-4">Send me non-fiction book recs! Or ask me anything, really</p>
 <div class="form-group row">
 <div class="col-md-6">
 <input class="form-control" type="text" name="name" placeholder="Name*" required>
